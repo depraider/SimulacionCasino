@@ -1,0 +1,6 @@
+# Archivos de la simulación Java generados
+*.class
+
+# Archivos de IDE comunes
+# VS Code
+.vscode/
