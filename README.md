@@ -1,6 +1,6 @@
-# 🎰 Simulación de Estrategias de Ruleta Francesa
+# Simulación de Estrategias de Ruleta Francesa
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto es una simulación de casino **multihilo** desarrollada en Java. El objetivo es simular el comportamiento y los posibles beneficios de diversas estrategias de juego en la **ruleta francesa** (37 números: 0-36).
 
@@ -10,7 +10,7 @@ La simulación se basa en la concurrencia:
 
 ---
 
-## 🔑 Conceptos de Concurrencia Implementados
+## Conceptos de Concurrencia Implementados
 
 * **Hilos (Threads/Runnable):** Las clases `Ruleta` y `Jugador` (y sus subclases) implementan `Runnable` para su ejecución concurrente.
 * **Sincronización (`synchronized`):**
@@ -19,7 +19,7 @@ La simulación se basa en la concurrencia:
 
 ---
 
-## ⚙️ Estructura del Código
+## Estructura del Código
 
 El proyecto está diseñado con **modularidad** y herencia, utilizando las siguientes clases:
 
@@ -35,7 +35,7 @@ El proyecto está diseñado con **modularidad** y herencia, utilizando las sigui
 
 ---
 
-## 🚀 Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 1.  **Requisitos:** Necesitas tener instalado **Java JDK** (versión 8 o superior).
 2.  **Compilación:** Desde el directorio que contiene los archivos `.java`, compila las clases:
